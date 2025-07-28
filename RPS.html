@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>RPS GAME</title>
+      <link rel="stylesheet" href="RPS.css">
+  </head>
+
+      <body>
+          <button class="Description">DESCRIPTION:  It is a Simple game of Rock - Paper - Scissors, allowing users to play against the computer. 
+            In this Game user can choose Rock, Paper, and Scissors the computer generates a random choice and winner is determined based on game rules.
+            And displays the users wins, losses, and ties.And the reset score button will generates a fresh Game.</button>
+
+          <div class="to-middle">
+          
+          <p class="title">ROCK - PAPER - SCISSORS GAME</p>
+
+          <button onclick="playGame('Rock');" class="move-button">
+          <img src="Images/rock.webp" class="move-icon">
+          </button>
+          
+          <button onclick="playGame('Paper');" class="move-button">
+          <img src="Images/paper.webp" class="move-icon">
+          </button>
+          
+          <button onclick="playGame('Scissors');" class="move-button">
+          <img src="Images/scissors.webp" class="move-icon">
+          </button>
+              
+          <p class="js-result result"></p>
+          <p class="js-moves moves"></p>
+          <p class="js-score score"></p>
+
+          <button onclick="
+          score.wins = 0;
+          score.losses = 0;
+          score.ties = 0
+          updateScoreElement()"
+          class="reset-score-button">RESET SCORE</button>
+          </div>
+          
+          
+          <script src="RPS.js"></script>
+      </body>
+</html>

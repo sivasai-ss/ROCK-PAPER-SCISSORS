@@ -1,0 +1,93 @@
+.Description{
+    background-color:transparent;
+    color: white;
+    border-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+
+.title {
+    padding-left: 70px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color:white;
+    text-decoration-thickness: 2px;
+    
+}
+.move-icon{
+    height: 150px;
+    border-radius: 70px;
+}
+.move-mini-icon{
+    height:50px;
+    color: white;
+    border-radius: 20px;
+}
+.moves{
+    color: white;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    font-style:italic;
+    padding-left: 130px;
+}
+.move-button{
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.result{
+    color: white;
+    padding-left: 210px;
+    font-family: arial;
+    font-size: 35px;
+    font-weight: bold;
+    font-style:italic;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: white;
+    text-decoration-thickness: 1px;
+}
+.score{
+    color: white;
+    padding-left: 165px;
+    font-family: arial;
+    font-weight: bold;
+    font-style:italic;
+    padding-top: 10px;
+}
+.reset-score-button{
+    background-color: white;
+    border-color: white;
+    padding:7px 50px 7px;
+    margin-left: 165px;
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: underline;
+    border-radius: 100px;
+    text-align: center;
+}
+.to-middle{
+    margin-left:150px;
+}
+body{
+    background-image: url(Images/background\(1\).jpg);
+    background-size: cover;
+}
