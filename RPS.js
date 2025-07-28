@@ -8,38 +8,38 @@ updateScoreElement();
 function playGame(playermove){
     const computerMove=pickComputerMove();
     let result='';
-if(playermove==='Rock'){
-    if(computerMove==='Rock'){
+if(playermove==='rock'){
+    if(computerMove==='rock'){
         result='Tie.';
     }
-    else if(computerMove==='Paper'){
+    else if(computerMove==='paper'){
         result='You Lose.';
     }
-    else if(computerMove==='Scissors'){
+    else if(computerMove==='scissors'){
         result='You Won.';
     }
 }
 
-else if(playermove==='Paper'){
-    if(computerMove==='Rock'){
+else if(playermove==='paper'){
+    if(computerMove==='rock'){
         result='You Won.';
     }
-    else if(computerMove==='Paper'){
+    else if(computerMove==='paper'){
         result='Tie.';
     }
-    else if(computerMove==='Scissors'){
+    else if(computerMove==='scissors'){
         result='You Lose.';
     }
 }
 
-else if(playermove==='Scissors'){
-    if(computerMove==='Rock'){
+else if(playermove==='scissors'){
+    if(computerMove==='rock'){
         result='You Lose.';
     }
-    else if(computerMove==='Paper'){
+    else if(computerMove==='paper'){
         result='You Won.';
     }
-    else if(computerMove==='Scissors'){
+    else if(computerMove==='scissors'){
         result='Tie.';                        
     }
 }
@@ -72,14 +72,14 @@ function pickComputerMove(){
     const randomNumber=Math.random();
         let computerMove='';
         if (randomNumber>=0 && randomNumber<1/3){
-            computerMove='Rock';
+            computerMove='rock';
         }
         else if(randomNumber>=1/3 && randomNumber<2/3){
-            computerMove='Paper';
+            computerMove='paper';
 
         }
         else if(randomNumber>=2/3 && randomNumber<1){
-            computerMove='Scissors';
+            computerMove='scissors';
         }console.log(computerMove);
     
     return computerMove;
