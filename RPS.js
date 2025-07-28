@@ -67,6 +67,7 @@ function updateScoreElement(){
     Losses: ${score.losses}
     Ties: ${score.ties}`;
 }
+console.log(`playermove = ${playermove}, computerMove = ${computerMove}`);
 
 function pickComputerMove(){
     const randomNumber=Math.random();
